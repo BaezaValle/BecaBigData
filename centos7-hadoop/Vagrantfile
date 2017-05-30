@@ -52,7 +52,7 @@ Vagrant.configure("2") do |config|
    config.vm.provider "virtualbox" do |vb|
      # Display the VirtualBox GUI when booting the machine
      vb.gui = true
-     vb.name = "centos7-hadoop"
+     vb.name = "centos7-hadoopDev"
      # Customize the amount of memory on the VM:
      vb.memory = "2048"
    end
@@ -84,8 +84,8 @@ Vagrant.configure("2") do |config|
 	sudo cp /vagrant/provision/java.sh /etc/profile.d/java.sh
 	sudo chmod +x /etc/profile.d/java.sh
 	sudo sh /etc/profile.d/java.sh
-#	sudo tar xvf /vagrant/provision/hadoop-2.8.0.tar.gz
-#	sudo mv /home/vagrant/hadoop-2.8.0 /usr/local
+	sudo tar xvf /vagrant/provision/hadoop-2.8.0.tar.gz
+	sudo mv /home/vagrant/hadoop-2.8.0 /usr/local
 	sudo cp /vagrant/provision/hadoop.sh /etc/profile.d/hadoop.sh
 	sudo chmod +x /etc/profile.d/hadoop.sh
 	sudo cp /vagrant/provision/core-site.xml /usr/local/hadoop-2.8.0/etc/hadoop/core-site.xml
