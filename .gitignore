@@ -1,0 +1,6 @@
+centos7-hadoop/.vagrant/
+centos7-hadoop/provision/hadoop-2.8.0.tar.gz
+centos7-hadoop/provision/jdk-8u131-linux-x64.rpm
+centos7/.vagrant/
+centos7/provision/jdk-8u131-linux-x64.rpm
+docker/.vagrant/
