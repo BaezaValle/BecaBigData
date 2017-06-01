@@ -4,3 +4,7 @@ centos7-hadoop/provision/jdk-8u131-linux-x64.rpm
 centos7/.vagrant/
 centos7/provision/jdk-8u131-linux-x64.rpm
 docker/.vagrant/
+centos7-hadoop/provision/test.txt
+centos7-spring/.vagrant/
+centos7-spring/provision/jdk-8u131-linux-x64.rpm
+centos7-spring/provision/sts.tar.gz
